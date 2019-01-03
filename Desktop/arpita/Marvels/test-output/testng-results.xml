@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[successsss]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20254" started-at="2019-01-03T06:25:20Z" finished-at="2019-01-03T06:25:40Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20254" started-at="2019-01-03T06:25:20Z" finished-at="2019-01-03T06:25:40Z">
+      <class name="scripts.TestLogin">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:scripts.TestLogin@57e1b0c]" name="openBrowser" is-config="true" duration-ms="17307" started-at="2019-01-03T06:25:20Z" finished-at="2019-01-03T06:25:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="test()[pri:0, instance:scripts.TestLogin@57e1b0c]" name="test" duration-ms="851" started-at="2019-01-03T06:25:37Z" finished-at="2019-01-03T06:25:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[successsss]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:scripts.TestLogin@57e1b0c]" name="closeBrowser" is-config="true" duration-ms="2075" started-at="2019-01-03T06:25:38Z" finished-at="2019-01-03T06:25:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- scripts.TestLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
